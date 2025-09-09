@@ -4,11 +4,11 @@
     "type": "git",
     "url": "https://github.com/TanX-009/atomize.git"
   },
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
-  "main": "dist/cli.js",
+  "main": "dist/bin/cli.js",
   "bin": {
-    "atomize": "dist/cli.js"
+    "atomize": "dist/bin/cli.js"
   },
   "scripts": {
     "build": "tsc",
