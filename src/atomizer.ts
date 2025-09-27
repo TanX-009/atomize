@@ -31,6 +31,7 @@ function atomize(
           id: UID,
         },
       );
+      map[`${def.atomic_prefix}${seperator}0`] = `${def.css_property}: 0;`;
       atoms = { ...atoms, ...map };
     } else if (def.type === "type") {
       const map = mapToCSS(
